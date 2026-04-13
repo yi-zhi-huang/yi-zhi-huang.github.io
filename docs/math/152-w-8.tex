@@ -1,0 +1,99 @@
+\documentclass[12pt]{article}
+\usepackage{latexsym, amscd, %graphicx, 
+amssymb}
+\newcommand{\SECT}[1]
+		{\vspace{.3cm}
+		$\!\!\!\!\!\!\!\!\!\!\!${\bf {#1}}
+		\vspace{.2cm}}
+
+\begin{document}
+
+
+\begin{center}
+
+{\large \bf Math 152, Fall, 2004, Workshop 8\par}
+\vspace{.5cm}
+{{\bf Honors Section} 
+\par}
+\end{center}
+
+\begin{enumerate}
+
+\item This problem is based on the fact that bounded monotonic 
+sequences converge. 
+
+\begin{enumerate}
+
+\item Given that $1 < x < y$, find a similar relation between
+${\displaystyle \frac{1}{x}}$ and ${\displaystyle \frac{1}{y}}$. 
+Then show that if $1 < x < y < 4$
+then ${\displaystyle 1 < 4-\frac{1}{x} 
+< 4-\frac{1}{y}
+< 4}$. (Note: you must show that each of these three inequalities is true). 
+
+\item Compute five terms $(a_{1}, \dots, a_{5})$ of the recursively 
+defined sequence 
+$$a 1 = 1, \;\;\; a_{n+1}=4-\frac{1}{a_{n}}.$$
+
+\item Show that $1 < a_{1} < a_{2} < 4$; then, using (a), show that the 
+sequence $\{a_{n}\}$ is increasing and 
+bounded. Does it converge? 
+
+\item Find the limit of the sequence in (b) (call the limit 
+$Q$, and take the $n\to \infty$ limit on both sides 
+of the recursion to obtain an equation for $Q$.) 
+
+\end{enumerate}
+
+\item \begin{enumerate}
+\item Using the integral test, show that the series 
+${\displaystyle \sum_{n=2}^{\infty}\frac{1}{n(\ln n)^{2}}}$ converges
+
+\item Let $s$ denote the sum of this series: $s = 
+{\displaystyle \sum_{n=2}^{\infty}\frac{1}{n(\ln n)^{2}}}$.
+If you attempted to estimate $s$ 
+by computing a partial sum of the series---that is, 
+by adding up the first few terms---how 
+many terms would you have to include to guarantee that the error 
+(the difference between 
+$s$ and the sum you calculate) 
+would be less than $0.05$? Explain why you are certain of this 
+accuracy. (Use the inequality 
+$$\sum_{n=N+1}^{\infty}f(n)\le \int_{N}^{\infty}f(x)dx.$$
+You may ignore any calculator (round-off) error arising in your addition.)
+
+\end{enumerate}
+
+\item Consider the following three series: 
+$$(\mbox{\rm i})\sum_{n=1}^{\infty}\frac{4-\sin n}{n^{2}+1},\;
+(\mbox{\rm ii}) 
+\sum_{n=1}^{\infty}\frac{4-\sin n}{n+1},\;
+(\mbox{\rm iii}) 
+\sum_{n=1}^{\infty}\frac{4-\sin n}{2^{n}+1}.$$
+
+\begin{enumerate}
+
+\item Use the comparison test to determine whether or not each of 
+these series converges. 
+
+\item For each series which converges, give an approximation of 
+its sum, together with an error 
+estimate, as follows. First calculate the sum $s_{5}$
+of the first $5$ terms. Then find a number $r$ such that 
+you know that the error $R_{5}=s-s_{5}$ satisfies 
+$|R_{5}|\le r$. (Hint: If $0\le a_{n}\le b_{n}$ and $\sum_{n=1}^{\infty}b_{n}$
+converges, then $|R_{N}|=|s-s_{N}|=|\sum_{n=N+1}^{\infty}a_{n}|\le 
+\sum_{n=N=1}^{\infty}b_{n}$. If $a_{n}=f(n)$ and $f(x)$ satisfies the 
+hypothesis in the integral test, then $|R_{N}|\le 
+\int_{N}^{\infty}f(x)dx$. 
+This is called estimating the error. In one case you will have to 
+first estimate using another series, then 
+estimate that error using an integral.) 
+
+\end{enumerate}
+
+
+\end{enumerate}
+
+\end{document}
+

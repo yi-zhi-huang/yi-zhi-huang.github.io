@@ -1,0 +1,164 @@
+\nopagenumbers
+\magnification=\magstep1
+\font\show = cmdunh10.tfm
+\headline{\bf\ifodd\pageno\OLLING TEXT:q\folio\else\folio\hfil\fi}
+\parindent = 0pt
+%% To typeset a problem:`\points{25}\tag. Text of problem...'
+%% To typeset a part of a problem: `(\i) Part of problem...'
+%% To typeset problem in left-justified block of width three inches:
+%%       `\block{3truein}{\points{25}\tag. Text of problem...}'
+
+\newcount\problem \problem=0 \newcount\partno \newcount\total\total=0
+\def\points#1{\advance\total by #1\relax%
+    \noindent\llap{\hbox to .5truein{(#1)\hfil}}}
+\def\tag{\global\advance\problem by 1 \message{\number\problem}%
+     \partno=96\relax\the\problem}
+\def\prob#1{\points{#1}\tag\expandafter\expandafter\expandafter%
+   \expandafter\gdef\csname\the\problem pointsforproblem\endcsname{#1}.\ }
+\def\i{\global\advance\partno by 1 \char\partno}
+\outer\def\exambye{\write16
+  {Number of problems: \number\problem. Total points: \number\total.}
+   \par\vfill\supereject\end}
+
+\def\zw#1{\omit&height4pt&\omit&&\omit&&\omit&\cr
+&&#1&&\csname#1pointsforproblem\endcsname&&\hphantom{abcde}&\cr
+\omit&height2pt&\omit&&\omit&&\omit&\cr \tablerule }
+\def\tablerule{\noalign{\hrule}}
+\def\heavytablerule{\noalign{\hrule height 2pt}}
+\newtoks\zws \zws={}
+\newcount\cover \cover=0 \let\xft=\expandafter
+\def\tablesetup{\loop\ifnum\cover<\problem \advance\cover by 1 \let\temp=\zws%
+ \xft\xft\xft\zws\xft\xft\xft{\xft\the\xft\temp\xft\zw\xft{\number\cover}}%
+ \repeat}
+\font\typ=cmtt10
+\input amssym.def
+\def\d{\displaystyle}
+\nopagenumbers
+\headline{\bf\ifodd\pageno\hfil\folio\else\folio\hfil\fi}
+\magnification=\magstep1
+\def\dd{\displaystyle} 
+\def\mx#1{\left[\matrix{#1}\right]} 
+\def\vc#1{{\bf v}_{#1}} 
+\parindent=0pt
+\def\cv#1#2#3#4{\mx{#1 \cr #2 \cr #3 \cr #4 \cr}} 
+\def\i{{\bf i}} \def\j{{\bf j}} \def\k{{\bf k}} \def\u{{\bf u}}
+\def\f{{\bf f}}
+\def\x{{\bf x}}
+\def\R{{\bf R}}
+\def\p{\partial}
+\def\part #1#2{{\dd {{\p #1}\over{\p #2}}}}
+
+
+
+
+\prob{20}~a) Find the Laplace transform of  
+$e^{5t}(3e^{-t}\sin(4t)-4e^{2t}\cos (3t))$.
+
+\vskip 3.5in
+
+b) Find the inverse Laplace transform of 
+${\dd e^{-10s}(2+s^{2})}\over {\dd s^{2}}$.
+
+\vfil\eject
+
+\prob{20}~Find the inverse Laplace transform of 
+${\dd 1}\over {\dd (s+1)(s^{2}+1)}$ using the following methods:
+
+a) Partial fraction.
+
+\vskip 3in
+
+b) The convolution theorem.
+
+\vfil\eject
+
+\prob{10}~Solve the following initial value problem:
+$$\left\{\matrix{y''+y={\cal U}(t-4),\;\;\;\;\cr
+y(0)=2, \;\;\; y'(0)=0.}\right.$$
+
+\vfil\eject
+
+\prob{10}~Solve the following initial value problem:
+$$\left\{\matrix{y'_{1}+y_{2}=0,\cr
+y_{2}'+y_{1}=0 \cr
+y_{1}(0)=1,\hskip .5em&\!\!\!\!y_{2}(0)=0.}\right.$$
+
+\vfil\eject
+
+\prob{20}~Let $A={\d \left(\matrix{2& - 2&3\cr
+0& 3&-2\cr
+0&-1&2\cr}\right)}$.
+
+a) Find all eigenvalues and eigenvectors of $A$.
+
+\vfil\eject
+ 
+b) Show that $A$ is diagonalizable and find an invertible matrix 
+$P$ and a diagonal matrix $D$ such that $A=PDP^{-1}$.
+
+\vfil\eject
+
+\prob{10}~Find a $2\times 2$ orthogonal matrix whose columns are 
+eigenvectors of the symmetric matrix ${\dd \left(\matrix{1&-1\cr
+-1&1}\right)}$.
+
+\vfil\eject
+
+\prob{10}~Find all solutions of the boundary value 
+problem 
+$$\left\{\matrix{y''+25\pi^{2}y=0,\;\;\;\;\cr
+y_{0}=0,\;\;y(1)=0.}\right.$$
+
+
+
+\vfil\eject
+\headline{\hfil}
+\centerline{\rm \ Exam\ 1\ for\ MATH\ 421}
+\smallskip
+\centerline{October 16, 2008}
+\bigskip
+\leftline{\hfil NAME ({\it please print}):\thinspace 
+\vrule height .5pt depth 0pt
+width 4truein}
+%\bigskip
+\bigskip\medskip
+$${\bf Do\ all\ problems,\ in\ any\ order.}$$
+\smallskip
+$${\bf Show\ all\ your\ work.\ Full\ credit\ may\ not\ be\ given\ for\
+an\ answer\ alone.}$$
+\smallskip
+$$\bf 
+You\ may\ use\
+\underline{no}\ course\ materials.$$
+\bigskip\bigskip
+\tablesetup
+\centerline{\vbox{\tabskip=0pt \offinterlineskip
+\halign to 2.3in{\strut#&\vrule#\tabskip=1em plus2em&
+  \hfil#& \vrule#& \hfil#& \vrule#&
+  \hfil#& \vrule#\tabskip=0pt\cr\tablerule
+\omit&height2pt&\omit&&\omit&&\omit&\cr
+&&\omit\hidewidth Problem\hidewidth&&
+ \omit\hidewidth Possible\hidewidth&&
+ \omit\hidewidth Points\hidewidth&\cr
+&&\omit\hidewidth Number\hidewidth&&
+ \omit\hidewidth Points\hidewidth&&
+ \omit\hidewidth Earned:\hidewidth&\cr\tablerule
+\the\zws
+\heavytablerule
+&&\multispan3 \ \hfil&&&\cr
+&&\multispan3 \hidewidth Total Points Earned:\hidewidth &&&\cr
+&&\multispan3 \ \hfil&&&\cr\tablerule
+}}}
+%&&1&&5&&\hphantom{abcde}&\cr\tablerule
+
+
+\exambye 
+
+
+
+\bye
+
+
+
+
+

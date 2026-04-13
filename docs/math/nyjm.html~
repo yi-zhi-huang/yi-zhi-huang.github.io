@@ -1,0 +1,123 @@
+<body bgcolor=#ffficd text="#800000" link=#800000 vlink=#bb0000>
+<head> 
+<title>
+New York Journal of Mathematics
+</title> 
+</head> 
+
+<center>
+<table width="85%">
+<tr><td><h3>New York Journal of Mathematics</h3>
+
+
+<table width=''85%''>
+
+<tr><td><h4>Aims & Scope</h4>
+<ul>
+
+<li>
+The New York Journal of Mathematics is the first electronic 
+general mathematics journal. It is refereed in the traditional
+manner, under the direction of the editorial board, and
+offers rapid publication of high quality articles. 
+</ul>
+</td></tr></table>
+
+
+
+
+
+<table width=''85%''>
+
+<tr><td><h4>Guidelines for Authors</h4>
+<ul>
+
+<li>Papers should be submitted by electronic mail to the
+member of the editorial board closest to your field. 
+The papers are refereed in the traditional manner,
+with one anonymous referee. 
+Papers may be submitted in any dialect of tex but the
+final version should be in LaTeX and should be prepared 
+according to the <a
+href="http://nyjm.albany.edu/nyjstyle.html" target="_top">style
+specifications for submissions to the New York Journal
+of Mathematics</a>.
+One  of these specifications should be emphasized:
+The authors should prepare their papers using the
+class file, <a href="http://nyjm.albany.edu/nyj.cls" target="_top">
+nyj.cls</a>, 
+but,  if for some reason that isn't working on your system,
+please use amsart.cls. For those unfamiliar with
+AMS-based classes, here is a <a 
+href="http://nyjm.albany.edu/latemp.tex" target="_top">template for
+topmatter</a> to flag the relevant fields.
+Authors will have an opportunity to make final
+corrections before publication.  
+
+</ul>
+</td></tr></table>
+
+<table width=''85%''>
+
+<tr><td><h4>Official Webpage</h4>
+<ul>
+
+<li> <a href="http://nyjm.albany.edu/"
+target="_top">
+New York Journal of Mathematics</a>
+
+
+</ul>
+</td></tr></table>
+<P>
+
+
+
+<table width=''85%''>
+
+<tr><td><h4>Editorial Board</h4>
+<ul>
+
+
+<li> Editors-in-Chief
+<P>
+<ul>
+
+<LI> Mark Steinberger (University at Albany)
+
+<P>
+<LI>Editors
+<P>
+<ul>
+<LI>Jerry Bona (Univ. of Illinois, Chicago)
+<LI>Luis Caffarelli (Univ. of Texas, Austin)
+<LI>Gunnar Carlsson (Stanford Univ.)
+<LI>Marc Culler (Univ. of Illinois, Chicago)
+<LI>Ronald G. Douglas (Texas A&M Univ.)
+<LI>Peter Duren (Univ. of Michigan)
+<LI>Andrew Granville (Univ. de Montreal)
+<LI>Michael Hopkins (Harvard Univ.)
+<LI>Yi-Zhi Huang (Rutgers Univ.)
+<LI>Naichung Conan Leung (Chinese Univ. of Hong Kong)
+<LI>David R. Morrison (Duke Univ.)
+<LI>Paul S. Muhly (Univ. of Iowa)
+<LI>Bodo Pareigis (Univ. Muenchen)
+<LI>Duong Phong (Columbia Univ.)
+<LI>Andrew Ranicki (Univ. of Edinburgh)
+<LI>Douglas C. Ravenel (Univ. of Rochester)
+<LI>Richard Rochberg (Washington Univ., St. Louis)
+<LI>Joseph Rosenblatt (Univ. of Illinois, Urbana-Champaign)
+<LI>David J. Saltman (Univ. of Texas, Austin)
+<LI>Oded Schramm (Microsoft Research)
+<LI>Birgit Speh (Cornell Univ.)
+<LI>Ronald J. Stern (Univ. of California, Irvine)
+
+</ul>
+</td></tr></table>
+<P>
+
+
+
+
+</td></tr></table></center>
+

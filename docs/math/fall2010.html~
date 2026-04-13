@@ -1,0 +1,365 @@
+<body bgcolor=#ffficd text="#800000" link=#800000 vlink=#bb0000>
+<head> 
+<title>
+Fall, 2010
+</title> 
+</head> 
+
+<p>
+
+
+<center>
+<table width="85%">
+<tr><td>
+
+
+
+
+
+
+<h3>Fall, 2010</h3>
+
+<UL>
+
+<li><b>Speaker</b> David Radnell, American University of Sharjah
+<ul><li><b>Title</b> Applications of Inifnite-dimensional Teichmueller
+theory to conformal
+field theory
+<li><b>Time/place</b> 8/25/2010, Wednesday, 2:00 pm in Hill 425
+    <li><b>Abstract</b> Riemann surfaces with analytically
+    parametrized boundaries can be sewn
+together using the parametrizations
+to identify boundary points. The moduli space of these rigged
+surfaces, the determinant line bundle and the sewing operation are
+fundamental to two-dimensional conformal field theory (CFT).
+Teichmueller theory is the natural way to
+solve the (infinite-dimensional) complex analytic questions that
+arise. For example, we have given the rigged moduli space a complex
+Banach manifold strucure and proved that the sewing operation is
+holomorphic.
+<p>
+By using conformal welding we generalize to quasisymmetric boundary
+parametrizations. Because of the simplified
+picture we obtain, it appears this is the natural setting for the
+geometric objects in conformal field theory. Moreover, this allows the
+rigged moduli space to be obtained as a quotient of the standard
+infinite-dimensional Teichmueller space of bordered Riemann surfaces.
+A clear two-way link between CFT and Teichmuller theory is thus
+established. An overview of these recent results will be presented.
+<p>
+This is joint work with Eric Schippers.
+</ul>
+<p>
+<li><b>Speaker</b> Eric Schippers, University of Manitoba
+<ul><li><b>Title</b> Applications of conformal field theory to
+infinite-dimensional
+Teichmueller theory
+<li><b>Time/place</b> 8/26/2010, Thursday, 2 pm in Hill 425
+    <li><b>Abstract</b> One of the central objects in two-dimensional
+    conformal field theory
+is the "rigged moduli space" of Riemann surfaces with parameterized
+boundary
+curves.  The "sewing operation" joins two parameterized Riemann
+surfaces
+along two boundaries, identifying points using the parameterizations.
+David Radnell and I showed that the rigged moduli space of Riemann
+surfaces of
+a given type is a quotient of the Teichmueller space of bordered
+surfaces of
+the same type.
+<p>
+In this talk I will give applications of this correspondence to
+Teichmueller
+theory.  It allows us to construct a natural fiber structure on
+Teichmueller
+space, which arises naturally from the puncture/local coordinates
+model of the
+space, which arises naturally from the puncture/local coordinates
+model of the
+rigged moduli space.  As an application we can construct a new natural
+coordinate
+system on the infinite dimensional Teichmueller space of bordered
+surfaces.
+<p>
+This is joint work with David Radnell.
+
+</ul>
+
+<li><b>Speaker</b> Siddhartha Sahi, Rutgers University
+<ul><li><b>Title</b> Invariant distributions on Speh representations
+<li><b>Time/place</b> 10/1/2010, Friday, 11:45 am in Hill 425
+    <li><b>Abstract</b> Speh representations are an interesting family
+    of unitary
+representations of GL(2n,R), which were first discovered by Birgit
+Speh in the residual spectrum. They are also important examples of
+cohomologically induced representations constructed by Zuckerman.
+They play a key role in the Tadic-Vogan classification of the
+unitary dual of GL(n).
+<P>
+Recently, using automorphic techniques, Offen-Sayag proved
+[unpublished] the somewhat surprising result that Speh
+representation admit a (unique) distribution vector invariant
+under the symplectic group Sp(2n,R), if and only if n is even!
+In joint work with Gourevitch and Sayag, we prove a strengthening
+of the Offen-Sayag result using (local) representation theoretic
+techniques.
+<P>
+First using the Sahi-Stein realization of the Speh
+representation we show, using analytic and geometric arguments
+that, for even n, there is a unique distribution vector invariant
+under the Siegel parabolic subgroup of Sp(2n,R). Next, using an
+algebraic argument involving the K-type structure of the Speh
+representations, we show that, for odd n, there are no
+distribution vectors invariant under the unitary subgroup of Sp(2n,R).
+
+
+</UL>
+<p>
+<li><b>Speaker</b> Vladimir Retakh, Rutgers University
+<ul><li><b>Title</b> Noncommutative Toda Chains, Hankel
+Quasideterminants And Painlev'e
+II Equation
+<li><b>Time/place</b> 10/8/2010, Friday, 11:45 am in Hill 425
+    <li><b>Abstract</b> We construct solutions of an infinite Toda
+    system and an
+analogue of the Painlev'e II equation over noncommutative differential
+division rings in terms of quasideterminants of Hankel matrices.
+
+</UL>
+
+<p>
+
+<li><b>Speaker</b> Anders Buch, Rutgers University
+<ul><li><b>Title</b> Quantum K-theory
+<li><b>Time/place</b> 10/15/2010, Friday, 11:45 am in Hill 425
+    <li><b>Abstract</b> The quantum K-theory of a homogeneous space X
+    is a deformation of the
+ordinary K-theory ring, where the structure constants are defined as
+polynomial expressions in K-theoretic Gromov-Witten invariants.  In
+contrast to (ordinary) cohomological GW invariants, the K-theoretic
+invariants can be non-zero in arbitrarily high degrees.  As a
+consequence, there might be infinitely many non-zero terms in the
+product of two Schubert classes.  When X is a Grassmannian of type A,
+a Pieri rule proved by Mihalcea and the speaker implies that all
+products are finite.  I will speak about new work with Chaput,
+Mihalcea, and Perrin that shows that the quantum K-theory of X is
+finite when X is any cominuscule homogeneous space.
+
+
+</UL>
+
+<p>
+
+<li><b>Speaker</b> Walter Freyn, University of Muenster
+<ul><li><b>Title</b> Kac-Moody symmetric spaces
+<li><b>Time/place</b> 10/22/2010, Friday, 11:45 am in Hill 425
+    <li><b>Abstract</b> Kac-Moody symmetric spaces are the natural
+    infinite
+dimensional counterpart to finite dimensional Riemannian symmetric
+spaces as studied by Cartan. In this talk, we explain why they are
+natural and describe the interplay between geometric, algebraic and
+functional analytic structures in their construction.
+
+</UL>
+
+<p>
+
+<li><b>Speaker</b> Stuart Margolis, Bar-Ilan University and CAISS,
+  CCNY
+<ul><li><b>Title</b> On the Monoids Associated to the Coxeter Complex
+and the Bruhat Order of a Coxeter Group
+<li><b>Time/place</b> 10/29/2010, Friday, 11:30 am in Hill 425 (or in
+another room to be determined)
+    <li><b>Abstract</b> Coxeter groups are ubiquitous in mathematics
+    arising in many parts of algebra, geometry, topology and other
+    fields, providing deep and surprising connections between diverse
+    areas of mathematics and computer science. There are a number of
+    geometric and combinatorial objects associated to a Coxeter group,
+    two of the most important being the Coxeter complex and the Bruhat
+    order. While these have played an extremely important role in the
+    theory, it was only within the last years that it was realized
+    that each of these has the natural structure of a monoid.
+<P>
+The monoid structures have both been .frequently rediscovered. and
+have only slowly been realized to give very important information
+about the Coxeter group itself, that is not available from a purely
+group theoretic perspective. For example, the first edition of Kenneth
+Brown.s book Buildings does not mention the monoid structure on the
+Coxeter Complex at all, whereas the monoid plays a prominent role in
+the second edition. Also, while no finite group has a non-trivial
+multiplicative partial order, Bruhat order turns out to be a
+multiplicative order on the associated monoid.
+<P>
+The purpose of this talk is to give an introduction to these monoids
+for both group and semigroup theorists. I will discuss their structure
+and how they fit into two very important classes of monoids, the so
+called left regular bands and J -trivial monoids. I will look at their
+representation theory as well as how they are used to give deeper
+information on the associated Coxeter group. Surprisingly, the
+algebras of these monoids are intimately related to the Solomon
+Descent Algebra and the 0-Hecke algebra of the Coxeter groups as
+well.
+
+
+
+</UL>
+
+<p>
+<li><b>Speaker</b> Leonardo Mihalcea, Baylor University
+<ul><li><b>Title</b> Spaces of rational curves in flag manifolds and
+the quantum Chevalley formula
+<li><b>Time/place</b> 11/5/2010, Friday, 11:30 am in Hill 425
+    <li><b>Abstract</b> Given Omega a Schubert variety in a flag
+    manifold, one can
+ consider two spaces: the moduli space GW_d(\Omega) of rational
+curves of
+fixed degree d passing through Omega (a subvariety of the moduli
+space of stable maps), and the space Gamma_d(\Omega) obtained by
+    taking
+the union of these curves (a subvariety of the flag manifold). I will
+show how some considerations about the geometry of these spaces leads
+to a new, natural, proof of the equivariant quantum Chevalley formula
+proved earlier by Fulton and Woodward and by the speaker. This is
+    joint
+work with A. Buch.
+
+
+</ul>
+
+<p>
+
+<li><b>Speaker</b> Dmitry Gourevitch, Rutgers University
+<ul><li><b>Title</b> On associated variety, Whittaker functionals,
+derivatives and rank
+for representations of GL(n,R)
+<li><b>Time/place</b> 11/12/2010, Friday, 11:45 am in Hill 425
+    <li><b>Abstract</b> There are several ways
+of measuring size of representations of
+reductive
+groups. One of them is to attach to a representation a certain
+subvariety
+of the nilpotent cone of the group. Another way is to ask whether the
+representation posseses functionals equivariant with respect to some
+subgroups, in particular the nilradical of the minimal parabolic. Such
+functionals are called Whittaker functionals. I will discuss those
+notions
+and report a recent result of ours that connects those notions in the
+case
+G=GL(n,R).
+<p>
+For unitary representations of GL(n,R) we also compute the associated
+variety of the highest derivative or a representation. Based on our
+results we suggest a new notion of rank of a representation,
+which extends Howe's notion of rank.
+<p>
+This is work in progress, joint with Siddhartha Sahi.
+
+
+</ul>
+<p>
+
+<li><b>Speaker</b> Stewart Wilcox, MIT
+<ul><li><b>Title</b> Representations of rational Cherednik algebras
+<li><b>Time/place</b> 11/30/2010, Tuesday, 1:40 pm in Hill 124 (note
+the special date, time and room)
+    <li><b>Abstract</b> The rational Cherednik algebra was introduced
+    by Etingof and Ginzburg as a
+degeneration of Cherednik's ``double affine Hecke algebra". It may
+also be
+viewed as a universal deformation of an algebra of differential
+operators,
+and
+the type A rational Cherednik algebra is closely related to the
+Calogero-Moser
+space.
+<p>
+In this talk, after briefly introducing the algebra along the above
+lines, I
+will discuss results concerning the support sets of its
+representations,
+especially in the type A case.
+
+
+
+</ul>
+<p>
+
+<li><b>Speaker</b> Avraham Aizenbud, MIT
+<ul><li><b>Title</b> A quantum analogue of Kostant's theorem for the
+general linear group
+<li><b>Time/place</b> 12/3/2010, Friday, 11:45 am in Hill 425
+    <li><b>Abstract</b> A fundamental result in representation theory
+    is Kostant's
+theorem which describes the algebra of polynomials on a reductive
+Lie algebra as a module over its invariants.
+We will review this result and prove a quantum analogue
+of it for the general linear group.
+
+
+</ul>
+
+<p>
+<li><b>Speaker</b> David Jordan, MIT
+<ul><li><b>Title</b> Quantization of multiplicative quiver varieties
+<li><b>Time/place</b> 12/3/2010, Friday, 2:00 pm in Hill 425 (note the
+special time)
+    <li><b>Abstract</b> Quiver varieties, as introduced by Lusztig and
+    Nakajima, are
+related to such diverse topics as Hilbert schemes, representations of
+Hecke
+algebras and semi-simple Lie algebras, canonical bases, and character
+varieties of Riemann surfaces.  Recently, Crawley-Boevey and Shaw
+solved
+the Deligne-Simpson problem by introducing so-called multiplicative
+quiver
+varieties and studying their algebro-geometric properties.
+<p>
+In this talk, we construct certain algebras $A^\lambda_d$, which
+quantize
+the symplectic structure on multiplicative quiver varieties.  Our
+construction involves Hamiltonian reduction by quantum group actions.
+As
+applications, we give a new description of the representation category
+of
+the spherical double affine Hecke algebra of type $A_{n-1}$ with
+formal
+parameters.
+
+
+
+</ul>
+
+</ul>
+
+<p>
+<li><b>Speaker</b> Tony Milas, SUNY-Albany
+<ul><li><b>Title</b> Some distinguished vertex subalgebras of lattice
+vertex operator algebras
+<li><b>Time/place</b> 12/10/2010, Friday, 11:00 pm in Hill 423 (note
+  the
+special time and the special room)
+    <li><b>Abstract</b> I'll introduce certain subalgebras of lattice
+    vertex operator algebras
+and discuss their structure, including combinatorial bases of
+modules. This part of the talk is based on M. Penn's PhD thesis at
+SUNY-Albany. In the second part we shall focus primarily on multiples
+of root lattices. Some (q,x)-series identities will be presented.
+<p>
+This talk is primarily aimed at graduate students.
+
+
+
+</ul>
+
+
+
+</UL>
+
+
+
+
+</td></tr></table></center>
+
+<p>
+
+

@@ -1,0 +1,53 @@
+\documentclass[10pt]{article}
+\textheight 8.5in
+\topmargin -0.5in
+%\textwidth 6.1in
+%\evensidemargin 0.1in
+%\oddsidemargin 0.1in
+\newcommand{\SECT}[1]
+		{\vspace{.3cm}
+		$\!\!\!\!\!\!\!\!\!\!\!${\bf {#1}}
+		\vspace{.2cm}}
+   \input amssym.def
+    \input amssym
+\begin{document}
+
+
+\begin{center}
+	 {\Large \sc Formula sheet for Exam 2, Math 421
+\par} 	\end{center}
+
+{\bf Fourier series} 
+
+For $f(x)$ defined on $[-L, L]$, the Fourier series 
+of $f(x)$ is 
+$$\frac{a_{0}}{2}+\sum_{n=1}^{\infty}a_{n}\cos 
+\left(\frac{n\pi x}{L}\right)+b_{n}\sin 
+\left(\frac{n\pi x}{L}\right).$$
+
+{\bf Fourier coefficients}
+
+\begin{eqnarray*}
+a_{n}&=&\frac{1}{L}\int_{-L}^{L}f(x)\cos 
+\left(\frac{n\pi x}{L}\right)dx,\\
+b_{n}&=&\frac{1}{L}\int_{-L}^{L}f(x)\sin 
+\left(\frac{n\pi x}{L}\right)dx.
+\end{eqnarray*}
+
+{\bf Orthogonality}
+
+\begin{eqnarray*}
+\int_{-L}^{L}\sin \left(\frac{m\pi x}{L}\right)
+\sin \left(\frac{n\pi x}{L}\right)dx&=&\left\{\begin{array}{ll}
+0&m\ne n,\\ L&m=n,\end{array}\right. \\
+\int_{-L}^{L}\cos \left(\frac{m\pi x}{L}\right)
+\cos \left(\frac{n\pi x}{L}\right)dx&=&\left\{\begin{array}{ll}
+0&m\ne n,\\ L&m=n\ne 0,\\ 2L&m=n=0,
+\end{array}\right. \\
+\int_{-L}^{L}\cos \left(\frac{m\pi x}{L}\right)
+\sin \left(\frac{n\pi x}{L}\right)dx&=&0. 
+\end{eqnarray*}
+
+
+
+\end{document}

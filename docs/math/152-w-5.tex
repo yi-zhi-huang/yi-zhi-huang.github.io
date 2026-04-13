@@ -1,0 +1,126 @@
+\documentclass[12pt]{article}
+\usepackage{latexsym, amscd, %graphicx, 
+amssymb}
+\newcommand{\SECT}[1]
+		{\vspace{.3cm}
+		$\!\!\!\!\!\!\!\!\!\!\!${\bf {#1}}
+		\vspace{.2cm}}
+
+\begin{document}
+
+
+\begin{center}
+
+{\large \bf Math 152, Fall, 2004, Workshop 5\par}
+\vspace{.5cm}
+{{\bf Honors Section} 
+\par}
+\end{center}
+
+
+
+\begin{enumerate}
+
+
+\item \begin{enumerate}
+
+\item Use the Trapezoidal Rule with $n=4$ to approximate 
+$$\int_{0}^{1}-\cos(x^{2}+3) dx.$$
+Your answer 
+should contain $4$ digits past the decimal point (e.g. $1.2345$).
+
+\item How good is the approximation obtained above?
+
+\item How large must $n$ be so that the approximation given by the 
+Trapezoidal Rule is correct to $4$ digits past the decimal point 
+(i.e. so that $|E_{T_{n}}|<0.0001$)? 
+
+\end{enumerate}
+
+\noindent ({\bf Some useful inequalities:} 
+
+\begin{enumerate}
+
+\item {\bf Triangle inequality} $|f(x)+g(x)|\le |f(x)|+|g(x)|$; 
+$|f(x)-g(x)|\le |f(x)|+|g(x)|$.
+
+\item If $|f(x)|\le F$ and $H\le |g(x)|\le G$, then $|f(x)g(x)|\le FG$
+and ${\displaystyle \frac{|f(x)|}{|g(x)|}\le \frac{F}{H}}$.
+
+\item If $f(x)$ is increasing on $[a, b]$, then $f(x)\le f(b)$;
+if $f(x)$ is decreasing on $[a, b]$, then $f(x)\le f(a)$.
+
+\item $|\sin x|\le 1$ and $|\cos x|\le 1$ for all real numbers.
+
+\end{enumerate}
+These principles can be used to find an upper bound for a function quickly,
+especially when trying use the Differential Calculus to maximize that 
+function is likely to be quite arduous. )
+
+
+\item Assume that $a$ is a positive constant. Let $R$ be the region 
+bounded above by $y = 1/x^{a}$, below 
+by $y = 0$, and on the left by the line $x = 1$. 
+Determine those values of $a$ for which the integral 
+that results from attempting to calculate each of the following converges: 
+
+\begin{enumerate}
+
+\item The volume of the solid obtained by rotating $R$ around the $x$-axis.
+
+\item The volume of the solid obtained by rotating $R$ around the $y$-axis. 
+
+
+\end{enumerate}
+
+\item  Suppose that the functions $f$ and $g$ are defined and 
+positive on some interval $[a, \infty)$. 
+
+\begin{itemize}
+
+\item If ${\displaystyle \lim_{x\to \infty} \frac{f(x)}{g(x)}
+= 0}$, we say that $f$ grows more slowly than $g$ or that $g$ 
+grows more rapidly than 
+$f$ , as $x \to \infty$. This may be indicated by writing 
+$f << g$. (We use this terminology even if $f$ 
+and/or $g$ do not in fact ``grow" as $x \to \infty$; for example, 
+they might go to zero). 
+
+\end{itemize}
+
+\begin{enumerate}
+
+\item Arrange the following eight functions in order of rate 
+of growth, from least rapidly growing 
+to most rapidly growing. indicating any cases in which the 
+functions grow at comparable rates. 
+Justify your answers. It is helpful to least check that if 
+$f << g$ and $g << h$ then $f << h$. 
+$$x; \ln x;  \sqrt{x^{3} + x}; e^{x} ; \ln(\ln x); \ln (e^{x^{2}}
++ 1); x \ln(x); e^{x^{2}}.$$
+
+\item Arrange the reciprocals of the same eight functions in order 
+of rate of growth. (Hint: if $f$ and $g$ 
+are related by $f << g$, what is the relation between $1/g$ and $1/f$?)
+ 
+\item For which of the reciprocals $h(x) = 1/f(x)$ in (b) does the integral 
+${\displaystyle \int_{100}^{\infty}
+h(x) dx}$ converge? (Suggestion: Use the Comparison Theorem 
+on page 536 of the text. To do so you will need to 
+answer this queston: if $f << g$ is it true that $f(x) \le g(x)$? 
+Or true for some $x$?)
+
+\end{enumerate}
+
+
+
+
+
+
+\end{enumerate}
+
+
+
+\end{document}
+
+

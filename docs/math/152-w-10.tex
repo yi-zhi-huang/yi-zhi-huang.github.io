@@ -1,0 +1,102 @@
+\documentclass[12pt]{article}
+\usepackage{latexsym, amscd, %graphicx, 
+amssymb}
+\newcommand{\SECT}[1]
+		{\vspace{.3cm}
+		$\!\!\!\!\!\!\!\!\!\!\!${\bf {#1}}
+		\vspace{.2cm}}
+
+\begin{document}
+
+
+\begin{center}
+
+{\large \bf Math 152, Fall, 2004, Workshop 10\par}
+\vspace{.5cm}
+{{\bf Honors Section} 
+\par}
+\end{center}
+
+\begin{enumerate}
+
+\item \begin{enumerate}
+
+\item For each power series below, use the ratio test to 
+determine all values of $x$ for which the 
+series converges absolutely, then analyze the behavior 
+of the series at the endpoints in order to 
+determine the interval of convergence. 
+$$(i)\; \sum_{n=0}^{\infty}\frac{nx^{n}}{n^{2}+1},\;\;\;\;\;\;\;\;
+(ii)\; \sum_{n=1}^{\infty}\frac{n^{2}(x-1)^{n}}{2^{n}},\;\;\;\;\;\;\;\;
+(iii)\; \sum_{n=1}^{\infty}\frac{3^{n}x^{n}}{n^{2}}.$$
+
+\item Can you cook up a power series whose interval of convergence 
+is the interval $(0, 1]$, that is, the 
+interval defined by $0 < x \le 1$? How about $(0, 1)$? 
+Give an explicit series or explain why you can't.
+
+\end{enumerate}
+
+\item Consider the function defined by 
+$$f(x) = \sum_{n=0}^{\infty}(-1)^{n}\frac{x^{2n}}{n!}.$$
+
+\begin{enumerate}
+
+\item Write out the first five terms of the series (up to $n = 4$; 
+remember that $0! = 1$). 
+
+\item Determine the interval of convergence; this is the domain of $f$. 
+
+\item Verify in the following two ways that 
+\begin{equation}
+f'(x) = -2xf(x):
+\end{equation}
+
+\begin{enumerate}
+
+\item Compute both sides of (1) in terms of the five terms 
+you wrote out in; 
+
+\item Verify (1) using the original summation (sigma) notation. This 
+is a bit tricky (which is why it is 
+a good idea to do i first); you will have to make a change 
+of summation index. 
+
+\end{enumerate}
+
+\item Explain why $y = f(x)$ is a solution of the initial value problem 
+$$y' = 2xy,\;\;\;\;\;\;y(0) = 1.$$
+
+\item Solve this initial value problem and thereby obtain a formula 
+for f(x) in terms of 
+"elementary functions" (those found on your calculator). 
+
+\end{enumerate}
+
+\item Keep the notation of the previous problem, and let 
+$$s_{N}(x) =\sum_{n=1}^{N}(-1)^{n}\frac{x^{2n}}{n!},$$ 
+e.g., $s_{3}(x) = 1- x^{2} + x^{4}/2- x^{6}/6$. 
+
+\begin{enumerate}
+
+\item Using the formula you discovered for $f(x)$, use your calculator 
+to graph $f$ and the 
+partial sums $s_{0}$, $s_{2}$, $s_{4}$, and $s_{6}$ at the same time, 
+in a window where $0 \le x \le 1.2$. Copy 
+your graph to your workshop, identifying the different curves. 
+Does it appear that $s_{N}$ 
+becomes a better approximation to $f$ as $N$ increases? 
+
+\item Use the alternating series error formula to obtain an 
+upper bound for the error in the 
+approximation $f(x) \simeq s_{6}(x)$, $0 \le x \le 1.2$. 
+Your answer should be a single number that 
+applies to all $x$ in the range $0 \le x \le 1.2$. Explain why 
+this number is consistent with the 
+graph from (a). 
+
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}

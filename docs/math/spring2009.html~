@@ -1,0 +1,194 @@
+<body bgcolor=#ffficd text="#800000" link=#800000 vlink=#bb0000>
+<head> 
+<title>
+Spring, 2008
+</title> 
+</head> 
+
+<p>
+
+
+<center>
+<table width="85%">
+<tr><td>
+
+
+
+
+
+
+<h3>Spring, 2008</h3>
+
+
+<ul>
+
+
+<li><b>Speaker</b> Antun Milas, SUNY-Albany
+<ul><li><b>Title</b> W-algebras, quantum groups and combinatorial
+identities
+    <li><b>Time/place</b> Tuesday, 2/5/2008, 2:15 pm in Hill 124
+<li><b>Note</b> Special time and place
+    <li><b>Abstract</b> I will discuss a conjectural relationship
+    between certain quantum
+W-algebras (vertex algebras) and finite-dimensional quantum groups
+associated to $sl_2$ (Hopf algebras).  In the process we shall
+encounter interesting multisum identities.
+<p>
+</ul>
+
+
+<li><b>Speaker</b> Kevin McGerty, Chicago and IAS
+<ul><li><b>Title</b> Hall algebras and the Quantum Frobenius
+    <li><b>Time/place</b> Friday, 2/15/2008, 11:45am in Hill 423
+    <li><b>Abstract</b> See the preprint <a
+    href="http://front.math.ucdavis.edu/math.QA/0601150"
+    target="_top">math.QA/0601150</a>.
+<p>
+</ul>
+
+
+<li><b>Speaker</b> Olivier Schiffman, Paris and IAS
+<ul><li><b>Title</b> Macdonald polynomials and Eisenstein series on
+elliptic curves
+    <li><b>Time/place</b> Friday, 2/29/2008, 11:45am in Hill 423
+    <li><b>Abstract</b>
+<p>
+</ul>
+
+
+<li><b>Speaker</b> Tom Robinson, Rutgers
+<ul><li><b>Title</b> The automorphism property, differential
+representations and classical combinatorial identities
+    <li><b>Time/place</b> Friday, 3/7/2008, 11:45 am in Hill 423
+    <li><b>Abstract</b> We shall first recall the automorphism
+    property of exponentiated
+derivations, and then discuss representing two variable derivations
+(formal partial differential operators) as one variable derivations.
+Then we shall show how one may use these two algebraic ingredients to
+compute simple classical identities involving special hyperbinomial
+numbers like the Stirling numbers.
+<p>
+</ul>
+
+
+<li><b>Speaker</b> Tom Robinson, Rutgers
+<ul><li><b>Title</b> Formal differential representations, Faa di Bruno
+and the Riordan Group
+    <li><b>Time/place</b> Friday, 3/14/2008, 11:55 am in Hill 425
+<li><b>Note</b> Adjusted time and room
+    <li><b>Abstract</b> First I will show explicitly how a calculation
+    in Frenkel-Lepowsky-Meurman's book on vertex operator algebras,
+    which I
+will in its essentials redo, can be viewed as an application of a
+formal representation of exponentiated derivations.  The outcome of
+the calculation is Faa di Bruno's formula for the higher derivatives
+of a composite function.  Then building on this result I will show how
+another application of an easy class of formal differential
+representation leads to the Riordan Group.  No prerequisites
+necessary.
+<p>
+</ul>
+
+
+<li><b>Speaker</b> David Ben-Zvi, Univ. of Texas, Austin and IAS
+<ul><li><b>Title</b> Real Groups and Topological Field Theory
+    <li><b>Time/place</b> Friday, 3/28/2008, 11:45 am in Hill 423
+    <li><b>Abstract</b> I will explain current joint work with David
+    Nadler, in which
+the representation theory of real reductive Lie groups is
+examined through the lens of topological field theory
+and the geometric Langlands program. Our main results show
+how to recover the representation theory of real forms
+of a complex group G from the representation theory
+of G, and how to deduce a Langlands dual
+description of the representation theory
+(a form of Soergel's conjecture, generalizing
+results of Vogan and Langlands).
+<p>
+</ul>
+
+<li><b>Speaker</b> Liang Kong, Max Planck Institute for Mathematics at
+Bonn
+<ul><li><b>Title</b> A tensor-categorical study of open-closed
+rational conformal field theory
+    <li><b>Time/place</b> Friday, 4/4/2008, 11:45 am in Hill 423
+    <li><b>Abstract</b> I propose a reformulation of open-closed
+    rational conformal field theory in terms of certain algebras in
+    modular tensor categories. I will explain where it comes
+    from. Then I will give a somewhat dual formulation. I will also
+    discuss the so-called open-closed duality in this framework.
+<p>
+</ul>
+
+<li><b>Speaker</b> Hadi Salmasian, Alberta 
+<ul><li><b>Title</b> On the structure and geometry of 
+infinite-dimensional classical Lie groups
+<li><b>Time/place</b> Friday, 4/11/2008, 11:45 am in Hill 423
+<li><b>Abstract</b> Although structure theory and representations of
+finite-dimensional classical Lie groups/Lie algebras have been studied
+for about a hundred years, only recently have infinite-dimensional
+classical Lie groups/Lie algebras been investigated
+systematically. In this talk I begin by surveying recent
+progress on classification of simple locally finite Lie algebras,
+their Cartan and Borel subalgebras, and the geometry of 
+their associated flag manifolds. Next I will
+focus on certain B-stable subvarieties of these flag 
+manifolds which probably deserve to be called 
+infinite-dimensional Schubert varieties. The talk
+will conclude with a result on finiteness of weight 
+multiplicities of modules
+canonically associated to line bundles of these varieties.
+<p>
+</ul>
+
+<li><b>Speaker</b> Robert Wilson, Rutgers
+<ul><li><b>Title</b> Andrews' multisum identities and affine Lie
+algebras
+    <li><b>Time/place</b> Friday, 4/18/2008, 11:45 am in Hill 423
+    <li><b>Abstract</b> Certain important power series identities (in
+    particular, the Rogers-Ramanujan identities and their
+    combinatorial generalizations by Andrews, Gordon and Bressoud)
+    have been explained in terms of filtrations of standard modules
+    for affine Lie algebras (in particular, A_1^{(1)}). Andrews has
+    given another generalization of the Rogers-Ramanujan identities in
+    which the sum side is replaced by a multisum. We give a Lie
+    theoretic interpretation of this expression using the operators
+    X^{(i)} introduced by Meurman and Primc on a standard
+    A_1^{(1)}-module.
+<p>
+</ul>
+
+<li><b>Speaker</b> Daniel Sage, LSU and NYU
+<ul><li><b>Title</b> The Springer correspondence, unipotent
+characters, and
+perverse coherent sheaves
+    <li><b>Time/place</b> Friday, 4/25/2008, 11:45 am in Hill 423
+    <li><b>Abstract</b>
+In this talk, I will discuss a combinatorial coincidence in
+representation theory as well as some hints at its geometric
+interpretation.  Let G be a connected reductive algebraic group with
+Weyl group W.  The Springer correspondence assigns to each irreducible
+representation of W an irreducible equivariant local system on a
+unipotent class of G.  A major ingredient of Lusztig's parametrization
+of unipotent characters of finite reductive groups (or of unipotent
+character sheaves) has a similar flavor, with each irreducible
+representation of W associated to an element of a certain finite set
+which may be thought of as irreducible equivariant local systems on
+certain finite groups.  In this talk, I will describe a remarkable
+compatibility between these two assignments of local systems to
+irreducible representations of W.  This result is related to a
+conjecture of Lusztig on the geometry of special pieces in the
+unipotent variety.  I will explain how an extension of the
+Deligne-Bezrukavnikov theory of perverse coherent sheaves can be used
+to address this conjecture.  This work is joint with Pramod Achar.
+<p>
+</ul>
+
+
+</ul>
+
+
+
+</td></tr></table></center>
+
+<p>

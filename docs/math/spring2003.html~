@@ -1,0 +1,164 @@
+<body bgcolor=#ffficd text="#800000" link=#800000 vlink=#bb0000>
+<head> 
+<title>
+Fall, 2002
+</title> 
+</head> 
+
+<center>
+<table width="85%">
+<tr><td><h3>Spring, 2003</h3>
+
+
+<ul>
+<li><b>Speaker</b> Masahiko Miyamoto, University of Tsukuba, Japan
+<ul><li><b>Title</b> An introduction to a new stage of vertex operator 
+algebra theory
+    <li><b>Time/place</b> Tuesday, 1/28/2003 3:00 pm 
+    in Hill 525
+    <li><b>Note</b> Joint Geometry/Topology/Quantum Mathematics
+    Seminar/Colloquium
+    <li><b>Abstract</b> I will show a new relationship of vertex
+    operator algebra theory with
+formal series. In particular, I will introduce a new concept of trace
+function of logarithmic form and
+show a modular invariance property with the help of finite dimensional
+ring theory. 
+</ul>
+<p>
+<li><b>Speaker</b> Masahiko Miyamoto, University of Tsukuba, Japan
+<ul><li><b>Title</b> Interlocked modules and pseudo-trace functions 
+    <li><b>Time/place</b> Tuesday, 1/28/2003 4:30 pm (see note below)
+    in Hill 705 
+    <li><B>Note</b> Different day and time this week only due to Jean
+    Taylor Symposium.  
+    <li><b>Abstract</b> I will explain the proof of my recent result. 
+</ul>
+<p>
+<li><b>Speaker</b> Kiyokazu Nagatomo, Osaka University, Japan
+<ul><li><b>Title</b> Conformal field theory over the projective line
+    <li><b>Time/place</b> Friday, 2/21/2003 3:00 pm
+    in Hill 705
+    <li><b>Abstract</b> 
+I will explain a result recently obtained on conformal field theories
+over the projective line (joint work with A. Tsuchiya,
+<a href="http://front.math.ucdavis.edu/math.QA/0206223" target="_top">
+math.QA/0206223</a>). Let V be a vertex operator algebra satisfying the
+C_2-finiteness condition and certain regularity properties. We define
+spaces of conformal blocks associated to V using the geometry of the
+projective line, and prove the finiteness of conformal blocks and a
+factorization property. I start with the notion of vertex operator
+algebra and I will explain the definition of conformal blocks. No
+special knowledge of vertex operator algebras and conformal field
+theory is required; part of the talk is intended to be a comprehensive
+introduction to both fields.
+</ul>
+<p>
+<li><b>Speaker</b> Yucai Su, Shanghai Jiaotong University and Harvard
+University
+<ul><li><b>Title</b> Lie algebras associated with derivation-simple algebras
+    <li><b>Time/place</b> Friday, 3/7/2003 3:00 pm 
+    in Hill 705
+    <li><b>Abstract</b>  We first classify the pairs (A,D), where A is
+    a commutative associative algebra with an identity element over an
+    algebraically closed field F of characteristic zero, D is a finite
+    dimensional F-vector space consisting of commuting locally finite
+    derivations of A. Then using these pairs, we construct some in
+    general not finitely graded Lie algebras of generalized Cartan
+    type, and study their structure theory and representation theory.
+</ul>
+<p>
+<li><b>Speaker</b> Chengming Bai, Nankai University and Rutgers University
+<ul><li><b>Title</b> Novikov algebras and vertex (operator) algebras
+    <li><b>Time/place</b> Friday, 3/14/2003 3:00 pm
+    in Hill 705
+    <li><b>Abstract</b> Novikov algebras were introduced first by
+    I.M. Gelfand and I.Y. Dorfman in connection with Hamiltonian 
+    operators in the formal variational calculus. Later they were also
+    introduced to study the Poisson brackets of hydrodynamic type by
+    S.P. Novikov et al. The finite-dimensional Novikov algebras can induce
+    an interesting class of the infinite-dimensional Virasoro type Lie
+    algebras. Hence they correspond to a class of vertex (operator)
+    algebras. I will give a brief survey of the study of
+    finite-dimensional Novikov algebras and the relations between them and
+    their corresponding vertex (operator) algebras.
+
+</ul>
+<p>
+<li><b>Speaker</b> David Radnell, Rutgers
+University
+<ul><li><b>Title</b> Schiffer Variation in Teichm\"uller Space and
+Determinant Line Bundles
+    <li><b>Time/place</b> Friday, 3/28/2003 3:00 pm
+    in Hill 705
+    <li><b>Abstract</b> 
+A construction of conformal field theories, in the sense of Segal and
+Kontsevich, from vertex operator algebras is essentially complete in
+genus zero and one. However, in higher genus, some basic analytic and
+geometric problems must be solved in order to even formulate some
+fundamental structures, such as modular functors and holomorphic
+weakly conformal field theories in the sense of Segal.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+The basic geometric objects are Riemann surfaces with analytically
+parametrized boundaries and their associated determinant lines. The
+formulations of modular functors and holomorphic weakly conformal
+field theories are based on the highly nontrivial assumptions that the
+moduli space of such surfaces is an infinite-dimensional complex
+manifold, the determinant lines form a holomorphic line bundle over
+this moduli space and that the sewing operation is holomorphic. I will
+outline a proof of these results using deep classical results from
+Teichm&#252;ller theory and Schiffer variation. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+No background in geometry will be assumed.
+</ul>
+<p>
+<li><b>Speaker</b> Lin Zhang, Rutgers University
+<ul><li><b>Title</b> Tensor category theory for modules for a vertex
+operator algebra -- introduction and generalization
+    <li><b>Time/place</b> Friday, 4/11/2003 3:00 pm
+    in Hill 705
+    <li><b>Abstract</b> There is a well-developed tensor category
+    theory for certain modules
+of a fixed positive integral level for an affine Lie algebra,
+important in the study of conformal field theory. Two mathematical
+constructions are available: one by Finkelberg following
+Kazhdan-Lusztig's work on a related category, using algebro-geometric
+methods, and the other by Huang and Lepowsky using vertex operator
+algebra theory, which works for a very large class of categories of
+modules for rational vertex operator algebras.  In this talk I will
+give an introduction to the vertex algebraic approach, and explain
+how, by using logarithmic intertwining operators, this can be applied
+to the category considered by Kazhdan and Lusztig. I will also explain
+the relation of the two constructions of this category. No tehnical
+background will be assumed in this talk.
+</ul>
+<p>
+<li><b>Speaker</b> Michael Roitman, University of Michigan
+<ul><li><b>Title</b> Affinization of commutative algebras
+    <li><b>Time/place</b> Friday, 4/25/2003 3:00 pm
+    in Hill 705
+    <li><b>Abstract</b> If V = V_0 + V_1 + V_2 + ... is a vertex
+    algebra graded so that
+dim V_0 = 1 and V_1 = 0, then V_2 has a structure of commutative
+(but non-associative in general) algebra with an invariant bilinear
+form. We show that for any commutatve algebra A with a non-degenerate
+invariant bilinear form there is a vertex algebra V, graded as above,
+such that A = V_2. Moreover, if A has a unit e, then V can be chosen
+so that 2e is a Virasoro element.
+</ul>
+<p>
+<li><b>Speaker</b> Frederick Gardiner, City University of New York 
+<ul><li><b>Title</b> The pure mapping class group of a Cantor set
+(joint work with Nikola Lakic)
+    <li><b>Time/place</b> Friday, 5/2/2003 1:30 pm
+    in Hill 705
+    <li><b>Note</b> Special time. Joint Quantum Mathematics/Topology/Geometry
+    Seminar
+    <li><b>Abstract</b> It is shown that the pure mapping class group
+    of the complement in the complex plane of the standard
+    middle-thirds Cantor set acts discretely on the Teichmuller space
+    of Cantor sets of bounded geometric type. 
+</ul>
+</ul>
+
+</td></tr></table></center>

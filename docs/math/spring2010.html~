@@ -1,0 +1,220 @@
+<body bgcolor=#ffficd text="#800000" link=#800000 vlink=#bb0000>
+<head> 
+<title>
+Spring, 2010
+</title> 
+</head> 
+
+<p>
+
+
+<center>
+<table width="85%">
+<tr><td>
+
+
+
+
+
+
+<h3>Spring, 2010</h3>
+
+
+
+<UL>
+
+<li><b>Speaker</b> <a href="http://www.math.wisc.edu/~daughert/">Zajj
+Daugherty</a>, University of Wisconsin, Madison
+<ul><li><b>Title</b> Degenerate two-boundary centralizer algebras
+<li><b>Time/place</b> 1/22/2010, Friday, 11:45 am in Hill 425
+    <li><b>Abstract</b> Degenerate two-boundary centralizer algebras
+    arise as algebras of commuting operators for a Lie algebra action
+    on a tensor space. These algebras generalize the group algebra of
+    the symmetric group, and graded Hecke and Brauer algebras, and
+    have similarly elegant combinatorial structure. In this talk, we
+    will explore centralizers of the actions of .nite dimensional
+    complex reductive Lie algebras on tensor spaces of the form $M
+    \otimes N \otimes V^{\otimes k}$. As an example, we will explore
+    in detail the combinatorics of special cases corresponding to
+    $\mathfrak{gl}_n$ and $\mathfrak{sl}_n$ and explain how this might
+    be applied to the study of the combinatorial representation theory
+    of graded Hecke algebras of type C.
+
+</ul>
+
+<P>
+
+<li><b>Speaker</b> <a href="http://math.yale.edu/~az84/"
+		      target="_top">Anton
+Zeitlin</a>, Yale University
+<ul><li><b>Title</b> From Lian-Zuckerman Algebras to the Algebraic
+Structure of Classical Field Equations
+<li><b>Time/place</b> 1/29/2010, Friday, 11:45 am in Hill 425
+    <li><b>Abstract</b> We define a quasiclassical limit of the
+    Lian-Zuckerman homotopy BV
+algebra (LZ_{qc} algebra) on the subcomplex, corresponding to
+light modes, i.e. the elements of zero conformal weight, of the semi-
+infinite (BRST) cohomology complex of the Virasoro algebra associated
+to Vertex Operator Algebra (VOA) with a formal parameter.
+We show that LZ_{qc} algebra is actually a certain "double" of a
+Courant Algebroid associated with the corresponding VOA.
+We also discuss certain deformations related to abelian vertex
+subalgebras
+of the A_{\infty} subalgebra of LZ_{qc} algebra. In particular
+case of
+VOA associated with beta-gamma systems it will be shown that the
+deformations of this kind lead to the A_{\infty} algebra of the
+Yang-Mills equations.
+
+</ul>
+
+<P>
+
+<li><b>Speaker</b> Miranda Cheng,
+Harvard University
+<ul><li><b>Title</b> Black Holes, Wall-Crossing and Generalized
+Kac-Moody Algebras
+<li><b>Time/place</b> 2/5/2010, Friday, 11:45 am in Hill 425
+    <li><b>Abstract</b> The relation between generalised Kac-Moody
+    algebras, automorphic forms and hyperbolic reflection groups has
+    led to many fascinating results in mathematics. In my talk I will
+    report on results regarding the role of these objects in the
+    physics of black holes. I will also describe how, through string
+    theory, these results have lead to interesting conjectures in
+    geometry.
+
+</ul>
+<P>
+
+<li><b>Speaker</b> David Jordan, MIT  and Eric Larson, Harvard
+<ul><li><b>Title</b> Fusion categories of dimension pq^2
+<li><b>Time/place</b> 2/19/2010, Friday, 11:45 am in Hill 425
+    <li><b>Abstract</b> Fusion categories are certain ``small'' tensor
+    categories, which generalize categories of representations of
+    finite groups.  After introducing fusion categories and their
+    basic properties, we outline a theory of extensions and their
+    obstructions due to Etingof, Nikshych, and Ostrik, which is
+    informed by methods in homotopy theory.  Fusion categories have a
+    notion of dimension, and have been completely classified in
+    dimensions p^k, pq, and pqr, for distinct primes p, q, r.  Using
+    the theory of extensions, we completely classify fusion categories
+    of dimension pq^2, producing many new examples which are not
+    ``group-theoretical" in the sense of Ostrik.
+</ul>
+<P>
+
+
+<li><b>Speaker</b> <a
+href="http://webpages.math.luc.edu/~tonyg/vita2003.html"
+target="_top">Tony Giaquinto</a>, Loyola University of Chicago
+(<b>canceled</b>)
+<ul><li><b>Title</b> Graphs, Frobenius functionals, and the classical
+Yang-Baxter equation
+<li><b>Time/place</b> 3/12/2010, Friday, 11:45 am in Hill 425
+  (<b>canceled</b>)
+    <li><b>Abstract</b> A Lie algebra is Frobenius if it admits a
+    linear functional F such that the Kirillov form F([x,y]) is
+    non-degenerate. If g is the m-th maximal parabolic subalgebra
+    P(n,m) of sl(n) this occurs precisely when (n,m) = 1. We define a
+    "cyclic" functional F on P(n,m) and prove it is non-degenerate
+    using properties of certain graphs associated to F. These graphs
+    also provide in some cases readily computable associated solutions
+    of the classical Yang-Baxter equation. We also examine the seaweed
+    Lie algebras of Dergachev and Kirillov from our perspective.
+</ul>
+<P>
+
+<li><b>Speaker</b> <a href="http://www.math.ias.edu/~zyun/"
+		      target="_top">Zhiwe\
+i Yun</a>, IAS
+<ul><li><b>Title</b> A topological shadow of Mirror Symmetry for dual
+Hitchin fibrations
+<li><b>Note</b> Joint Lie Group/Quantum Mathematics/<a
+href="http://www.math.rutgers.edu/~ctw/mirror/"
+						       target="_top">Geometry,
+    Symmetr\
+y,
+and Physics Seminar</a>
+<li><b>Time/place</b> 3/26/2010, Friday, 11:45 am in Hill 425
+    <li><b>Abstract</b> For a reductive group G and its Langlands dual
+    G^, their
+Hitchin fibrations are dual torus fibrations. Homological Mirror
+Symmetry and Geometric Langlands duality predicts an equivalence
+between categories constructed from the dual fibrations, respecting
+certain natural symmetries. Being less ambitious, we will establish
+the shadow of this prediction on the level of cohomology, relating
+"global Springer actions" on (parabolic) Hitchin fibers of G and
+"Chern class actions" on those of G^.
+</ul>
+<P>
+
+
+
+<li><b>Speaker</b> <a href="http://www.albany.edu/~am815139/"
+target="_TOP">Antun Milas</a>, University at Albany (SUNY)
+<ul><li><b>Title</b> W-algebra extensions of minimal models
+<li><b>Time/place</b> 4/2/2010, Friday, 11:45 am in Hill 425
+    <li><b>Abstract</b> I will explain structure and representations
+    of a family of
+W-algebras obtained as extension of the Virasoro vertex algebras of
+minimal central charge, and in particular the c=0 algebra (joint work
+with
+D. Adamovic). These W-algebras are of considerable interest
+in logarithmic CFT and critical percolation. In addition, their
+representation theory is expected to be identical to that of certain
+finite dimensional quantum groups (via Kazhdan-Lusztig
+correspondence).
+
+Time permitting, I will also describe how considerations of W-algebras
+lead to new constant term and q-series identities.
+</ul>
+
+
+
+<P>
+
+<li><b>Speaker</b> <a href="http://dao.mit.edu/~wen/" target="_top">
+Xiao-Gang Wen</a>, MIT
+<ul><li><b>Title</b> Symmetric polynomial of infinite variables and
+quantum Hall states
+<li><b>Note</b> Joint Lie Group/Quantum
+  Mathematics/<a href="http://math.rutger\s.edu/seminars/allseminars.php?sem_name=Mathematical%20Physics%20Seminar"
+target="_top">Mathematical
+Physics Seminar</a>
+<li><b>Time/place</b> 4/9/2010, Friday, 11:45 am in Hill 425
+    <li><b>Abstract</b> I will discuss the close relation between
+    symmetric polynomial of infinite variables,
+vertex algebra, and quantum Hall states. I will present some attempts
+to classify
+symmetric polynomial of infinite variables.
+</ul>
+
+<P>
+
+<li><b>Speaker</b> <a href="http://www.math.columbia.edu/~lauda/"
+target="_top">Aaron Lauda</a>, Columbia and MSRI
+<ul><li><b>Title</b> A diagrammatic categorification of quantum groups
+<li><b>Time/place</b> 4/30/2010, Friday, 11:45 am in Hill 425
+    <li><b>Abstract</b> I'll explain joint work with Mikhail Khovanov
+    on a categorification of one-half of the quantum universal
+    enveloping algebra associated to a Kac-Moody algebra. This
+    categorification is obtained from the graded representation
+    category of certain graded algebra that can be defined using a
+    graphical calculus. Certain finite-dimensional quotients of these
+    graded algebras give categorifications of irreducible
+    representations of the quantum enveloping algebra. Extensions of
+    these rings are used in Webster's recent work categorifying
+    Reshetikhin-Turaev tangle invariants.
+</ul>
+
+
+</UL>
+
+
+
+
+</td></tr></table></center>
+
+<p>
+
+

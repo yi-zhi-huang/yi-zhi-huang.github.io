@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage{latexsym, amscd, %graphicx, 
+amssymb}
+\newcommand{\SECT}[1]
+		{\vspace{.3cm}
+		$\!\!\!\!\!\!\!\!\!\!\!${\bf {#1}}
+		\vspace{.2cm}}
+
+\begin{document}
+
+
+\begin{center}
+
+{\large \bf Math 152, Fall, 2004, Workshop 9\par}
+\vspace{.5cm}
+{{\bf Honors Section} 
+\par}
+\end{center}
+
+\begin{enumerate}
+
+\item For each of the following series, determine whether the 
+three conditions of the alternating series 
+test are satisfied. If the answer is `YES', determine how many 
+terms of the series need be added 
+up to get an approximation to the exact sum of the series 
+within an error tolerance of $10^{-20}$.
+$$(i) \; \sum_{n=1}^{\infty}\frac{(-1)^{n}}{(n^{3}+4)^{2}},\;\;\;\;\;\;\;\;\;\;
+(ii)\;  \sum_{n=2}^{\infty}\frac{(-1)^{n}n}{n+\ln n}, \;\;\;\;\;\;\;\;\;\;
+(iii) \; \sum_{n=1}^{\infty}(-1)^{n}\frac{\sin^{2}n}{n}.$$
+
+\item Consider the two series
+$$\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{n}$$
+and 
+$$\sum_{n=1}^{\infty}\frac{1}{n2^{n}}.$$
+
+\begin{enumerate}
+
+\item Explain why each series converges.
+
+\item It happens that the
+sum of each of these series equals $\ln 2$. 
+(We shall learn why, in another week 
+or so.) Granted this fact, suppose that you have to compute 
+$\ln 2$ to an accuracy of $10^{-6}$. Which series 
+is better suited for this calculation? Justify your answer
+by figuring out how many terms of each series you have to add up
+to get a partial sum of the desried accuracy, that is, to
+have $|R_{N}|<10^{-6}$. (Hint for the second series: 
+Estimate the error $|R_{N}$ by comparison with the error
+of a certain geometric series.)
+
+\end{enumerate}
+
+\item Consider the alternating series 
+$$\sum_{n=1}^{\infty}(-1)^{n}\left(\frac{1}{n}+\frac{(-1)^{n}}{n}\right).$$
+
+\begin{enumerate}
+
+\item Write down explicitly the first $10$ terms of the series. 
+
+\item Verify that $a_{n}\ge 0$ and $\lim_{n\to \infty}a_{n} = 0$. 
+
+\item Does the series converge? Explain. 
+
+\item Is the alternating series test applicable? Explain. 
+
+\end{enumerate}
+
+
+4. For which positive integers $k$ does 
+$$\sum_{n=1}^{\infty}\frac{k^{n}n!}{n^{n}}$$
+converge? Hint: 
+$$\lim_{n\to \infty} \left(1+\frac{1}{n}\right)=e.$$
+
+\end{enumerate}
+
+\end{document}

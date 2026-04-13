@@ -1,0 +1,125 @@
+<body bgcolor=#ffficd text="#800000" link=#800000 vlink=#bb0000>
+<head> 
+<title>
+Research Interests
+</title> 
+</head> 
+
+<center>
+<table width="85%">
+<tr><td><h3>Research Interests</h3> 
+
+  I am mainly interested in the mathematical
+  foundation of string theory. String theory is a
+  physical theory which some physicists are trying to
+  use to unify all the fundamental interactions in the
+  universe. The basic assumption of string theory is
+  that the fundamental constituents of our universe are
+  strings (one-dimesional objects), not particles
+  (zero-dimensional objects). Up to now, as a physical
+  theory, string theory is still a theory without
+  experimental proof, though it is consistent with all
+  the existing experimental results. But the
+  mathematics underlying string theory seems to be
+  related to all branches of mathematics. Some very
+  abstract mathematical theories now find their use in
+  string theory. More interestingly (at least to
+  mathematicians), intuition of string theorists
+  predicted surprising mathematical theorems, and
+  techniques used by string theorists supplied
+  powerful tools to solutions of mathematical
+  problems. Therefore, no matter whether string
+  theory as a physical theory is correct or not, the
+  mathematics underlying string theory will always be
+  interesting to mathematicians.
+<p>
+  Since I am mainly interested in using the
+  mathematics underlying string theory to solve
+  mathematical problems, my research must be
+  mathematically rigorous. Though the physical
+  intuition is very important and powerful, most of the
+  arguments used by physicists do not solve
+  mathematical problems at all. In most cases, these
+  arguments are more or less the same as
+  mathematicians' discussions on some beautiful
+  conjectures. To prove these mathematical
+  conjectures completely, we have to insist the
+  mathematical standard of rigor. In physics, all the
+  theories, no matter whether they are rigorous or not,
+  will have to be tested eventually by experiments.
+  Though the mathematical rigor might be useful when
+  a theory is first proposed or when a theory cannot be
+  tested by experiments yet, physicists will almost
+  always ignore this issue whenever there is a hope to
+  compare their theories with experimental results.
+  But in mathematics, a mathematical problem is
+  solved if and only if the proof is rigorously written
+  down. For example, in the original paper by Wiles
+  proving Fermat's Last Theorem, there is a gap which
+  was filled after one year by Taylor and Wiles.
+  Without this last step by Taylor and Wiles, Fermat's
+  Last Theorem would not be considered as solved. 
+<p>
+  Certainly solving mathematical problems rigorously
+  using ideas from physics does not mean filling
+  details or reformulating the existing physical
+  theories mathematically. Instead, it means creating
+  and developing new mathematical theories so that
+  the mathematical problems can be reformulated,
+  studied and finally solved in the framework of the
+  new theories. These new mathematical theories
+  might also be useful in physics
+  eventually. A good example is calculus and
+  mathematical analysis. Newton and Leibniz invented
+  calculus and Newton used it for the study of
+  mechanics. But no one can deny the contributions of
+  Cauchy, Weierstrass and many other mathematicians
+  for developing calculus as a solid and rigorous
+  mathematical theory. In fact these developments
+  became the foundation of mathematics today and are
+  applied to physics and other sciences. Another good
+  example is the interaction between general relativity
+  and gauge theory in physics and differential
+  geometry in mathematics.
+<p>
+  Right now I am mostly working on two-dimensional
+  conformal field theory. Conformal field theory
+  describes classical motions in string theory and also
+  critical phenomena in condensed matter physics. In
+  mathematics, it is closely related to
+  infinite-dimensional Lie algebras,
+  infinite-dimensional integrable systems, the
+  Monster (the largest finite sporadic simple group),
+  modular functions and modular forms, Riemann
+  surfaces, knot and three-manifold invariants,
+  Calabi-Yau manifolds and their generalizations, and
+  many other branches of mathematics. Many
+  mathematical problems can be solved by
+  constructing and studying the corresponding
+  conformal field theories, and the study of such
+  theories will also provide a framework for (further)
+  unifying the branches of mathematics mentioned
+  above. One of the main goals of my research now is
+  to construct geometric conformal field theories
+  from vertex operator algebras (a main ingredient of
+  conformal field theories) and their representations
+  and to apply the geometric conformal field theories
+  constructed and the results obtained in the
+  construction to solve concrete mathematical
+  problems related, e.g., to the Monster, to the theory  
+  of knots and three manifolds, and to mirror symmetry.
+
+  Conformal field theories discussed above actually 
+  correspond to perturbative closed string theory. 
+  To study open-string theory and D-branes, which are 
+  nonperturbative objects in string theory, one need to
+  study open-closed (or boundary) conformal field theories.
+  I am now also working on the construction of 
+  open-closed (or boundary) conformal field theories 
+  from vertex operator algebras and their representations. 
+  I hope that such a construction will be useful in the 
+  future study of D-branes and nonperturbative string theory
+  and will give deeper results on the geometry of 
+  Calabi-Yau manifolds.
+</td></tr></table></center>
+

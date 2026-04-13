@@ -1,0 +1,345 @@
+\documentstyle[12pt]{article}
+
+\newcommand{\SECT}[1]
+		{\vspace{.3cm}
+		$\!\!\!\!\!\!\!\!\!\!\!${\bf {#1}}
+		\vspace{.2cm}}
+
+\begin{document}
+
+
+\begin{center}
+	 {\bf Mathematics 477 \hspace{1em} Mathematical Theory of Probability
+\par} 
+\vspace{.5cm}
+
+{\large \sc \bf Solutions to selected problems, I\par}
+\vspace{.5cm}
+{{\bf Yi-Zhi Huang} 
+\par}
+\end{center}
+
+\paragraph{Chapter 1}
+
+\begin{description}
+
+\item[{\rm 7.}] 
+
+\begin{description}
+
+\item[(a)] Since there are 6 people, different ways correspond to 
+different permutations of these people. So there are $6!$ ways.
+
+\item[(b)] We can arrange them in the following way: First we decide
+which group (the boys or the girls) should be the first three people in the
+row. There are two ways.  Then we arrange the orders of the boys and the
+girls. There are each 3! ways. So the answer is $2 \cdot 3! \cdot 3!$.
+
+\item[(c)] We have four groups now: the group of $3$ boys and 
+the three groups of three girls. We first arrange these four groups. There 
+are $4!$ ways. Then we arrange the boys in the group. There are $3!$ ways.
+The answer is $4!\cdot 3!$.
+
+\item[(d)] We first decide whether a boy or a girl should be the first 
+in the row. There are two ways. Then we arrange orders among the boys 
+and among the girls. Each has $3!$ ways. So the answer is $2\cdot 3!\cdot 3!$.
+
+\end{description}
+
+\item[{\rm 28.}] 
+
+\begin{description}
+
+\item[(a)] Each teacher has four choices. So the total number of choices
+is $4^{8}$ which is our answer.
+
+\item[(b)] The number we want to calculate is the number of 
+dividing $8$ objects into four groups of size $2, 2, 2, 2$. So the 
+answer is ${8\choose 2, \; 2, \; 2, \; 2}$.
+
+\end{description}
+
+\end{description}
+
+\paragraph{Chapter 2}
+
+\begin{description}
+
+\item[{\rm 13.}] For typographical reasons, we use $E, F, G$ to denote
+$I, II, III$ in the problem. We think of the percentages as 
+probabilities. Then the problem gives the following: 
+\begin{eqnarray*}
+&P(E)=0.1,\; \;\; P(F)=0.3,\;\;\; P(G)=0.05,&\\
+&P(EF)=0.08,\;\;\;P(EG)=0.02,\;\;\; P(FG)=0.04,&\\
+&P(EFG)=0.01.&
+\end{eqnarray*}
+
+\begin{description}
+
+\item[(a)] We want to calculate first the percentage
+$$P((EF^{c}G^{c})\cup (E^{c}FG^{c})\cup (E^{c}F^{c}G)).$$
+Since $EF^{c}G^{c}$, $E^{c}FG^{c}$ and $E^{c}F^{c}G$ are 
+mutually exclusive, we have 
+\begin{eqnarray*}
+\lefteqn{P((EF^{c}G^{c})\cup (E^{c}FG^{c})\cup (E^{c}F^{c}G))}\\
+&&=P(EF^{c}G^{c})+P(E^{c}FG^{c})+P(E^{c}F^{c}G).
+\end{eqnarray*}
+Since $EF^{c}G^{c}=E(F\cup G)^{c}$ and 
+$$(E(F\cup G)^{c})\cup (E(F\cup G))=E$$
+and $E(F\cup G)^{c}$ and $E(F\cup G)$ are mutually exclusive,
+we have $P(E)=P(E(F\cup G)^{c})+P(E(F\cup G))$. Thus
+\begin{eqnarray*}
+P(E(F\cup G)^{c})&=&P(E)-P(E(F\cup G))\\
+&=&P(E)-P(EF\cup EG)\\
+&=&P(E)-P(EF)-P(EG)+P(EFG)\\
+&=&0.1-0.08-0.02+0.01\\
+&=&0.01.
+\end{eqnarray*}
+Similarly, we obtain $P(E^{c}FG^{c})=0.19$ and $P(E^{c}F^{c}G)=0$.
+Thus 
+$$P((EF^{c}G^{c})\cup (E^{c}FG^{c})\cup (E^{c}F^{c}G))=0.20$$
+and the answer is $20,000$. 
+
+\item[(b)] We have 
+\begin{eqnarray*}
+\lefteqn{P((EF)\cup (EG)\cup (FG))}\\
+&&=P(EF)+P(EG)+P(FG)\\
+&&\quad -P(EFG)-P(EFG)-P(EFG)+P(EFG)\\
+&&=P(EF)+P(EG)+P(FG)-2P(EFG)\\
+&&=0.08+0.02+0.04-0.02\\
+&&=0.12.
+\end{eqnarray*}
+So the answer is $12,000$.
+
+\item[(c)] We have 
+\begin{eqnarray*}
+\lefteqn{P((EF)\cup (FG))}\\
+&&=P(EF)+P(FG)-P(EFG)\\
+&&=0.08+0.04-0.01\\
+&&=0.11.
+\end{eqnarray*}
+So the answer is $11,000$.
+
+\item[(d)] We have 
+\begin{eqnarray*}
+\lefteqn{P((E\cup F\cup G)^{c})}\\
+&&=1-P(E\cup F\cup G)\\
+&&=1-P(E)-P(F)-P(G)\\
+&&\quad +P(EF)+P(EG)+P(FG)-P(EFG)\\
+&&=1-0.1-0.3-0.05+0.08+0.02+0.04-0.01\\
+&&=0.68.
+\end{eqnarray*}
+So the answer is $68,000$.
+
+\item[(e)] We want to calculate $P((EFG^{c})\cup (E^{c}FG))$.
+Note that $EFG^{c}$ and $E^{c}FG$ are mutually exclusive. 
+Also note that since $(EFG^{c})\cup (EFG)=EF$ and $EFG^{c}$ 
+and $EFG$ are mutually exclusive, $P(EF)=P(EFG^{c})+P(EFG)$,
+or equivalently, $P(EFG^{c})=P(EF)-P(EFG)$. Similarly, 
+$P(E^{c}FG)=P(FG)-P(EFG)$. Thus
+\begin{eqnarray*}
+\lefteqn{P((EFG^{c})\cup (E^{c}FG))}\\
+&&=P(EFG^{c})+P(E^{c}FG)\\
+&&=P(EF)-P(EFG)+P(FG)-P(EFG)\\
+&&=0.08+0.01+0.04-0.01\\
+&&=0.10.
+\end{eqnarray*}
+So the answer is $10,000$.
+
+
+\end{description}
+
+\item[{\rm 15.}] The number of elements of the sample space $S$ is 
+${52\choose 5}$. 
+
+\begin{description}
+
+\item[(a)] We first select a suit. There are $4$ ways. Then 
+we pick five cards from this suit. 
+There are ${13\choose 5}$ ways. So the nunmber of elements in the 
+event is $4\cdot {13\choose 5}$. The probability is 
+$$\frac{4\cdot {13\choose 5}}{{52\choose 5}}.$$
+
+\item[(b)] We first select four distinct kinds ($1$ or $J$
+or $A$, etc.). There are 
+${13\choose 4}$ ways. Then from these four kinds, we select one kind 
+in which we shall pick two cards. There are $4$ ways. 
+Finally we pick two cards from this kind and pick one card 
+from each of the other three kinds. 
+There are totally ${4\choose 2}\cdot 4\cdot 4\cdot 4$ ways. 
+So the number of the elements of the event 
+is ${13\choose 4} \cdot 4\cdot 
+{4\choose 2}\cdot 4\cdot 4\cdot 4$. The probability is 
+$$\frac{{13\choose 4} \cdot 4\cdot 
+{4\choose 2}\cdot 4\cdot 4\cdot 4}{{52\choose 5}}.$$
+
+\item[(c)] We first select three distinct kinds. There are 
+${13\choose 3}$ ways. Then from these three kinds, we selct two 
+kinds in which we shall pick two cards. There are ${3\choose 2}$ ways.
+Finally we pick two cards from these two kinds and pick one card 
+from the other kind. 
+There are totally ${4\choose 2}\cdot {4\choose 2}\cdot 4$ ways. 
+So the number of the elements of the event 
+is ${13\choose 3} \cdot {3\choose 2}\cdot 
+{4\choose 2}\cdot {4\choose 2}\cdot 4$. The probability is 
+$$\frac{{13\choose 3} \cdot {3\choose 2}\cdot 
+{4\choose 2}\cdot {4\choose 2}\cdot 4}{{52\choose 5}}.$$
+
+\item[(d)] We first select three distinct kinds. There are 
+${13\choose 3}$ ways. Then from these three kinds, we selct one
+kind in which we shall pick three cards. There are $3$ ways.
+Finally we pick three cards from this  kind and pick one card 
+from each of the other kinds. 
+There are totally ${4\choose 3}\cdot 4\cdot 4$ ways. 
+So the number of the elements of the event 
+is ${13\choose 3} \cdot 3\cdot 
+{4\choose 3}\cdot 4\cdot 4$. The probability is 
+$$\frac{{13\choose 3} \cdot 3\cdot 
+{4\choose 3}\cdot 4\cdot 4}{{52\choose 5}}.$$
+
+\item[(e)] We first select two distinct kinds. There are 
+${13\choose 2}$ ways. Then from these two kinds, we selct one
+kind in which we shall pick four cards. There are $2$ ways.
+Finally we pick four cards from this  kind and pick one card 
+from  the other kind. 
+There are totally $4$ ways. 
+So the number of the elements of the event 
+is ${13\choose 2} \cdot 2\cdot  4$. The probability is 
+$$\frac{{13\choose 2} \cdot 2\cdot  4}{{52\choose 5}}.$$
+
+
+\end{description}
+
+\item[{\rm 33.}] The assumption we make is that the chances of any 
+elk (tagged or not tagged) being captured are equally likely. 
+The number of the elements of the sample space is ${20\choose 4}$.
+To have two elks tagged, we need to select two elks from the five 
+tagged ones and select the other two from the fifteen untagged ones.
+The number of such possible selections are ${5\choose 2}\cdot
+{15\choose 2}$. So the probability is 
+$$\frac{{5\choose 2}\cdot
+{15\choose 2}}{{20\choose 4}}.$$
+
+
+\item[{\rm TH 11.}] We prove the Bonferroni's inequality first:
+\begin{eqnarray*}
+P(EF)&=&1-P((EF)^{c})\\
+&=&1-P(E^{c}\cup F^{c})\\
+&=&1-P(E^{c})-P(F^{c})+P(E^{c}F^{c})\\
+&=&1-(1-P(E))-(1-P(F))+P(E^{c}F^{c})\\
+&=&P(E)+P(F)-1+P(E^{c}F^{c})\\
+&\ge&P(E)+P(F)-1.
+\end{eqnarray*}
+In particular, when $P(E)=0.8$, $P(F)=0.9$,
+$$P(EF)\ge P(E)+P(F)-1=0.8+0.9-1=0.7.$$
+
+\end{description}
+
+\paragraph{Chapter 3}
+
+\begin{description}
+
+\item[{\rm 32.}] Let $E$ be the event that the resigned person is a
+woman and $F$ the event that the resigned person works in Store C. 
+What we know is that 
+\begin{eqnarray*}
+P(E|F)&=&\frac{70}{100},\\
+P(E|F^{c})&=&\frac{50\cdot 0.5+75\cdot 0.6}{50+75}\\
+&=&\frac{70}{125},\\
+P(F)&=&\frac{100}{50+75+100}\\
+&=&\frac{100}{225},\\
+P(F^{c})&=&1-P(F)\\
+&=&1-\frac{100}{225}\\
+&=&\frac{125}{225}.
+\end{eqnarray*}
+We want to calculate $P(F|E)$. By definition, 
+$$P(F|E)=\frac{P(EF)}{P(E)}.$$
+So we need to calculate $P(EF)$ and $P(E)$. 
+First, 
+$$P(EF)=P(F)P(E|F)=\frac{100}{225}\frac{70}{100}=\frac{70}{225}.$$
+By Bayes' formula, we have 
+\begin{eqnarray*}
+P(E)&=&P(F)P(E|F)+P(F^{c})P(E|F^{c})\\
+&=&\frac{100}{225}\frac{70}{100}+\frac{125}{225}\frac{70}{125}\\
+&=&\frac{140}{225}.
+\end{eqnarray*}
+Thus 
+$$P(F|E)=\frac{P(EF)}{P(E)}=\frac{1}{2}.$$
+
+\item[{\rm 69.}] Let $E_{i}$ be the event that the $i$-th child is 
+a boy. Then $E_{i}^{c}$ is the event that the $i$-th child is 
+a girl. When $i\ne j$, $E_{i}$, $E_{i}^{c}$, $E_{j}$ and $E^{c}_{j}$ are 
+all independent. Also we have $P(E_{i})=P(E_{i}^{c})=\frac{1}{2}.$
+
+\begin{description}
+
+\item[(a)] We have 
+\begin{eqnarray*}
+\lefteqn{P((E_{1}E_{2}E_{3}E_{4}E_{5})\cup (E_{1}^{c}E_{2}^{c}
+E_{3}^{c}E_{4}^{c}E_{5}^{c}))}\\
+&&=P(E_{1}E_{2}E_{3}E_{4}E_{5})+P(E_{1}^{c}E_{2}^{c}
+E_{3}^{c}E_{4}^{c}E_{5}^{c})\\
+&&=P(E_{1})P(E_{2})P(E_{3})P(E_{4})P(E_{5})\\
+&&\quad +P(E_{1}^{c})P(E_{2}^{c})
+P(E_{3}^{c})P(E_{4}^{c})P(E_{5}^{c})\\
+&&=\frac{1}{2^{5}}+\frac{1}{2^{5}}\\
+&&=\frac{1}{16}.
+\end{eqnarray*}
+
+\item[(b)] We have 
+$$P(E_{1}E_{2}E_{3}E^{c}_{4}E^{c}_{5})=\frac{1}{2^{5}}=\frac{1}{32}.$$
+
+\item[(c)] We first select where the boys should be (the oldest or the middle 
+or the youngest, etc.) There are ${5\choose 3}$ ways. For each choice,
+the probability is $\frac{1}{32}$. So the total probability 
+is ${5\choose 3}\cdot \frac{1}{32}=\frac{5}{16}$. 
+
+\item[(d)] $P(E_{1}^{c}E_{2}^{c})=\frac{1}{4}$.
+
+\item[(e)] Let $F$ be the event of at least one fo the child is a girl.
+Then $F^{c}$ is the event that none of the child is a girl. 
+We know that $P(F^{c})=\frac{1}{32}$. So $P(F)=1-P(F^{c})=\frac{31}{32}$.
+
+\end{description}
+
+\item[{\rm 73.}] Note that for $A$ to be the match winner, $A$ must 
+have won $k+2$ games if $B$ won $k$ games. Thus the total number of 
+the games  played is $2k+2$ which is even. Similarly, if $B$ is the match 
+winner, $B$ have won $k+2$ games if $A$ won $k$ games and the total number of 
+the games  played is $2k+2$ which is also even. Note that 
+we can group two consecutive games together. For $A$ be a match winner
+when a total number of $2k+2$ games are played, 
+the first $k$ groups must contain one game won by $A$ and one game won 
+by $B$ and the last group must contain two games both won by $A$. 
+Note that in the first $k$ groups, the orders whether $A$ or $B$ wins first
+do not matter. Thus the number of elements of the 
+event that $A$ wins at the $2k+2$ games is equal to 
+$(2!)^{k}=2^{k}$. So the probability that $A$ wins at the $2k+2$ games
+is $2^{k}p^{k+2}(1-p)^{k}$. Similarly the 
+probability that $B$ wins at the $2k+2$ games
+is $2^{k}p^{k}(1-p)^{k+2}$.
+
+
+\begin{description}
+
+\item[(a)] In this case, $k=1$. The probability is 
+$2p^{3}(1-p)+2p(1-p)^{3}$.
+
+\item[(b)] The probability that $A$ is the match winner is 
+\begin{eqnarray*}
+\sum_{k=0}^{\infty}2^{k}p^{k+2}(1-p)^{k}
+&=&p^{2}\sum_{k=0}^{\infty}(2p(1-p))^{k}\\
+&=&p^{2}\frac{1}{1-2p(1-p)}\\
+&=&\frac{p^{2}}{1-2p+2p^{2}}.
+\end{eqnarray*}
+
+\end{description}
+
+
+
+
+\end{description}
+
+
+
+\end{document}

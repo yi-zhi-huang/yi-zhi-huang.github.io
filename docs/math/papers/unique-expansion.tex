@@ -1,0 +1,189 @@
+\documentclass[12pt]{article} 
+\usepackage{latexsym, 
+%amsmath,
+amscd, 
+amsthm, 
+graphicx, epsfig, amssymb}
+
+%\usepackage{showkeys}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{rema}[thm]{Remark}
+\newtheorem{app}[thm]{Application}
+\newtheorem{prob}[thm]{Problem}
+\newtheorem{conv}[thm]{Convention}
+\newtheorem{conj}[thm]{Conjecture}
+\newtheorem{cond}[thm]{Condition}
+\newtheorem{assum}[thm]{Assumption}
+
+
+\newcommand{\halmos}{\rule{1ex}{1.4ex}}
+\newcommand{\pfbox}{\hspace*{\fill}\mbox{$\halmos$}}
+
+
+
+\newcommand{\nn}{\nonumber \\}
+
+ \newcommand{\res}{\mbox{\rm Res}}
+ \newcommand{\ord}{\mbox{\rm ord}}
+\newcommand{\hol}{\mbox{\rm Hol}}
+\renewcommand{\hom}{\mbox{\rm Hom}}
+\newcommand{\edo}{\mbox{\rm End}\ }
+ \newcommand{\pf}{{\it Proof.}\hspace{2ex}}
+ \newcommand{\epf}{\hspace*{\fill}\mbox{$\halmos$}}
+ \newcommand{\epfv}{\hspace*{\fill}\mbox{$\halmos$}\vspace{1em}}
+ \newcommand{\epfe}{\hspace{2em}\halmos}
+\newcommand{\nord}{\mbox{\scriptsize ${\circ\atop\circ}$}}
+\newcommand{\wt}{\mbox{\rm wt}\ }
+\newcommand{\swt}{\mbox{\rm {\scriptsize wt}}\ }
+\newcommand{\lwt}{\mbox{\rm wt}^{L}\;}
+\newcommand{\rwt}{\mbox{\rm wt}^{R}\;}
+\newcommand{\slwt}{\mbox{\rm {\scriptsize wt}}^{L}\,}
+\newcommand{\srwt}{\mbox{\rm {\scriptsize wt}}^{R}\,}
+\newcommand{\clr}{\mbox{\rm clr}\ }
+\newcommand{\lbar}{\bigg\vert}
+\newcommand{\tr}{\mbox{\rm Tr}}
+\newcommand{\A}{\mathcal{A}}
+\newcommand{\Y}{\mathcal{Y}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\CN}{\mathcal{N}}
+\newcommand{\F}{\mathcal{F}}
+\newcommand{\I}{\mathcal{I}}
+\newcommand{\V}{\mathcal{V}}
+\newcommand{\one}{\mathbf{1}}
+\newcommand{\BY}{\mathbb{Y}}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\mod}{\;\;\mbox{\rm mod}\;}
+
+
+
+
+
+\begin{document}
+
+\begin{lemma}
+Let $a_{n, i}\in \C$ for $n\in \R$ and $i=0, \dots, N$.
+If 
+\[
+\sum_{n\in \R}a_{n}e^{n\log z}
+\]
+is absolutely convergent to $0$ in an open subset of $\C\setminus \{0\}$,
+then $a_{n}=0$ for $n\in \R$.
+\end{lemma}
+\pf 
+For any $n_{0}\in \R$, since $\sum_{n\in \R}
+a_{n}e^{n\log z}$
+is absolutely convergent to $0$ in an open subset of $\C\setminus \{0\}$,
+both $\sum_{n\ge n_{0}}a_{n}e^{(n-n_{0})\log z}$
+and $-\sum_{n< n_{0}}a_{n}e^{(n-n_{0})\log z}$
+are absolutely convergent and we have
+\[
+\sum_{n\ge n_{0}}a_{n}e^{(n-n_{0})\log z}
+=-\sum_{n< n_{0}}a_{n}e^{(n-n_{0})\log z}
+\]
+in the same open subset. In particular, there exist
+$z_{1}, z_{2}\in \C$ satisfying $|z_{1}|>|z_{2}|>0$ such that 
+$\sum_{n\ge n_{0}}a_{n}e^{n\log z_{1}}$ and 
+$\sum_{n< n_{0}}a_{n}e^{n\log z_{2}}$ 
+are absolutely convergent. Since when $|z|\le |z_{1}|$,
+\begin{eqnarray*}
+\sum_{n\ge n_{0}}|a_{n}||e^{(n-n_{0})\log z}|
+&= &\sum_{n\ge n_{0}}|a_{n}||z|^{n-n_{0}}\nn
+&\le &\sum_{n\ge n_{0}}|a_{n, i}||z_{1}|^{n-n_{0}},
+\end{eqnarray*}
+the series 
+$\sum_{n\ge n_{0}}a_{n}e^{(n-n_{0})\log z}$
+is absolutely convergent when $|z|\le |z_{1}|$.
+Similarly, since when $|z|\ge |z_{2}|$,
+\begin{eqnarray*}
+\sum_{n< n_{0}}|a_{n, i}||e^{(n-n_{0})\log z}|
+&= &\sum_{n< n_{0}}|a_{n}||z|^{n-n_{0}}\nn
+&\le &\sum_{n< n_{0}}|a_{n}||z_{2}|^{n-n_{0}},
+\end{eqnarray*}
+the series 
+$\sum_{n< n_{0}}a_{n}e^{(n-n_{0})\log z}$
+is absolutely convergent when $|z|\ge |z_{2}|$.
+
+
+
+\begin{lemma}
+Let $N\in \N$ and $a_{n, i}\in \C$ for $n\in \R$ and $i=0, \dots, N$.
+If 
+\[
+\sum_{n\in \R}\sum_{i=0}^{N}a_{n, i}e^{n\log z}(\log z)^{i}
+\]
+is absolutely convergent to $0$ in an open subset of $\C\setminus \{0\}$,
+then $a_{n, i}=0$ for $n\in \R$ and $i=0, \dots, N$.
+\end{lemma}
+\pf
+For any $n_{0}\in \R$, since $\sum_{n\in \R}\sum_{i=0}^{N}
+a_{n, i}e^{n\log z}(\log z)^{i}$
+is absolutely convergent to $0$ in an open subset of $\C\setminus \{0\}$,
+both $\sum_{n\ge n_{0}}\sum_{i=0}^{N}a_{n, i}e^{(n-n_{0})\log z}(\log z)^{i}$
+and $-\sum_{n< n_{0}}\sum_{i=0}^{N}a_{n, i}e^{(n-n_{0})\log z}(\log z)^{i}$
+are absolutely convergent and we have
+\begin{equation}\label{r-n-1}
+\sum_{n\ge n_{0}}\sum_{i=0}^{N}a_{n, i}e^{(n-n_{0})\log z}(\log z)^{i}
+=-\sum_{n< n_{0}}\sum_{i=0}^{N}a_{n, i}e^{(n-n_{0})\log z}(\log z)^{i}
+\end{equation}
+in the same open subset. Moreover, 
+$\sum_{n\in \R}a_{n, i}e^{n\log z}$ for $i=0, \dots, N$ are 
+absolutely convergent in the same open subset (see a proposition in the 
+monograph). In particular, there exist
+$z_{1}, z_{2}\in \C$ satisfying $|z_{1}|>|z_{2}|>0$ such that 
+$\sum_{n\in \R}a_{n, i}e^{n\log z_{1}}$ and 
+$\sum_{n\in \R}a_{n, i}e^{n\log z_{2}}$ for $i=0, \dots, N$
+are absolutely convergent. Since when $|z|\le |z_{1}|$,
+\begin{eqnarray*}
+\sum_{n\ge n_{0}}\sum_{i=0}^{N}|a_{n, i}||e^{(n-n_{0})\log z}|(\log z)^{i}|
+&= &\sum_{n\ge n_{0}}\sum_{i=0}^{N}|a_{n, i}||z|^{n-n_{0}}|(\log z)^{i}|\nn
+&\le &\sum_{n\ge n_{0}}\sum_{i=0}^{N}|a_{n, i}||z_{1}|^{n-n_{0}}|(\log z)^{i}|,
+\end{eqnarray*}
+the series 
+$\sum_{n\ge n_{0}}\sum_{i=0}^{N}a_{n, i}e^{(n-n_{0})\log z}(\log z)^{i}$
+is absolutely convergent when $|z|\le |z_{1}|$.
+Similarly, since when $|z|\ge |z_{2}|$,
+\begin{eqnarray*}
+\sum_{n< n_{0}}\sum_{i=0}^{N}|a_{n, i}||e^{(n-n_{0})\log z}|(\log z)^{i}|
+&= &\sum_{n< n_{0}}\sum_{i=0}^{N}|a_{n, i}||z|^{n-n_{0}}|(\log z)^{i}|\nn
+&\le &\sum_{n< n_{0}}\sum_{i=0}^{N}|a_{n, i}||z_{2}|^{n-n_{0}}|(\log z)^{i}|,
+\end{eqnarray*}
+the series 
+$\sum_{n< n_{0}}\sum_{i=0}^{N}a_{n, i}e^{(n-n_{0})\log z}(\log z)^{i}$
+is absolutely convergent when $|z|\ge |z_{2}|$.
+
+We now define a single valued analytic function of $z'$
+on the whole plane $\C$ as follows:
+For $z'\in \C$ satisfying $|e^{z'}|\le |z_{1}|$ and $0\le \Im{z'}<2\pi$, 
+we define
+\begin{equation}
+f(z')=\sum_{n\ge n_{0}}\sum_{i=0}^{N}a_{n, i}e^{nz'}(z')^{i},
+\end{equation}
+and for $z'\in \C$ satisfying $|e^{z'}|\ge |z_{2}|$ and $0\le \Im{z'}<2\pi$, 
+we define
+\[
+f(z')=\sum_{n<n_{0}}\sum_{i=0}^{N}a_{n, i}e^{nz'}(z')^{i}.
+\]
+By (\ref{r-n-1}), for $z'$ satisfying $|z_{2}|\le |e^{z'}|<|z_{1}|$,
+the two definitions of $f(z')$ above give the same value. So $f(z')$ 
+is a well defined single-valued function on the region given by 
+$0\le \Im{z'}<2\pi$. Since both 
+$\sum_{n\ge n_{0}}\sum_{i=0}^{N}a_{n, i}e^{nz'}(z')^{i}$
+and $\sum_{n<n_{0}}\sum_{i=0}^{N}a_{n, i}e^{nz'}(z')^{i}$
+are uniformly convergent near any $z$ satisfying $0\le \Im{z'}<2\pi$,
+$f(z')$ is an analytic function. The next step is to define $f(z')$ 
+for general $z'\in \C$. 
+
+
+
+
+\epfv
+
+\end{document}
